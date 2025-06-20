@@ -2,6 +2,8 @@
 
 [![npm version](https://badge.fury.io/js/@walmyr-filho%2Fcy-press.svg)](https://badge.fury.io/js/@walmyr-filho%2Fcy-press)
 
+> ⚠️ **DEPRECATION WARNING**: The `press` command will be deprecated in a future release. Please consider using Cypress's native `.type()` command with key modifiers instead (e.g., `.type('{enter}')` instead of `.press('enter')`).
+
 A silly Cypress `.press()` command that simulates pressing a keyboard key.
 
 ## Installation

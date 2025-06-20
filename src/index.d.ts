@@ -4,6 +4,10 @@ declare namespace Cypress {
   interface Chainable {
     /**
      * **Simulates pressing a keyboard key.**
+     * 
+     * @deprecated ⚠️ The 'press' command will be deprecated in a future release. 
+     * Consider using Cypress's native .type() command with key modifiers instead 
+     * (e.g., .type('{enter}') instead of .press('enter')).
      *
      * @param key string - The key you want to press. Available keys are: selectAll, moveToStart, moveToEnd, del, backspace, esc, enter, rightArrow, leftArrow, upArrow, downArrow, home, end, insert, pageUp, pageDown, {, alt, option, ctrl, control, meta, command, cmd, shift, ctrl+a, CTRL+A, cmd+a, CMD+A
      *
